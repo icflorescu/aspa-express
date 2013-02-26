@@ -8,7 +8,7 @@
 		"coffee-script", "iced-coffee-script", "scripts",
 		"assets", "compressor", "optimizer", "packager", "builder"
 	],
-	"repository": "git://github.com/icflorescu/aspa",
+	"repository": "git://github.com/icflorescu/aspa-express",
 	"version": "0.1.0",
 	"engines": {
 		"node": ">=0.8"
