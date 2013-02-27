@@ -17,16 +17,18 @@ exports.getAssetPath = function(asset) {
 };
 
 /**
- * Connect middleware to adjust response headers for GZIPed assets.
+ * Connect middleware to adjust response headers for gzipped assets.
  */
 exports.adjustResponseHeaders = function(req, res, next) {
-	if (req.path.slice(-3) === '.gz') {
+	var path = req.path;
+
+	if (path.slice(-3) === '.gz') {
 		res.set('Content-Encoding', 'gzip');
-		if (req.path.slice(-7, -3) === '.css') {
+		if (path.slice(-7, -3) === '.css') {
 			res.set('Content-Type', 'text/css');
-		} else if (req.path.slice(-6, -3) === '.js') {
+		} else if (path.slice(-6, -3) === '.js') {
 			res.set('Content-Type', 'application/javascript');
 		}
 	}
-	return next();
+	next();
 };

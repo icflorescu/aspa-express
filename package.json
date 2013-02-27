@@ -1,7 +1,7 @@
 {
 	"name": "aspa-express",
 	"description": "Express module to use asset packaged by aspa",
-	"version": "0.1.0",
+	"version": "0.1.3",
 	"author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
 	"keywords": [
 		"jade", "css", "stylesheets",
@@ -9,7 +9,6 @@
 		"assets", "compressor", "optimizer", "packager", "builder"
 	],
 	"repository": "git://github.com/icflorescu/aspa-express",
-	"version": "0.1.0",
 	"engines": {
 		"node": ">=0.8"
 	},
