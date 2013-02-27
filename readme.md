@@ -1,7 +1,7 @@
 # ASPA-Express
 
 ASPA-Express is an Express/Connect module for using web assets packaged by [ASPA](https://github.com/icflorescu/aspa).  
-Make sure to check [ASPA](https://github.com/icflorescu/aspa) for more information on how to generate asset packages.
+Make sure to check [ASPA](https://github.com/icflorescu/aspa) for more information on how to generate the asset packages.
 
 ## Usage
 
@@ -47,7 +47,7 @@ III. Then, in your template files (a .jade in my example here) you can use `getA
 
 **Warning:  
 Don't forget to keep your asset files in a separate folder outside your main web application and _don't put anything directly in the public web folder, as it will be overwritten during the build process!_...
-Read more about this [here](https://github.com/icflorescu/aspa).**
+Read more about how the asset packager works [here](https://github.com/icflorescu/aspa).**
 
 ## License
 
