@@ -1,15 +1,9 @@
 # ASPA-Express
-ASPA-Express is an Express/Connect module for using web assets packaged by [ASPA](https://github.com/icflorescu/aspa).
 
+ASPA-Express is an Express/Connect module for using web assets packaged by [ASPA](https://github.com/icflorescu/aspa).  
 Make sure to check [ASPA](https://github.com/icflorescu/aspa) for more information on how to generate asset packages.
 
-![ASPA](https://raw.github.com/icflorescu/aspa/master/aspa.png)
-
 ## Usage
-
-**Warning:  
-Keep your asset files in a separate folder outside your main web application directory and _don't put anything directly in the public web folder, as it will be overwritten during the build process!_...
-Read more about this [here](https://github.com/icflorescu/aspa).**
 
 I. Add dependency in `package.json`:
 
@@ -50,6 +44,10 @@ III. Then, in your template files (a .jade in my example here) you can use `getA
 	    block content
 	    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
 	    script(src=asset('js/main.js'))
+
+**Warning:  
+Don't forget to keep your asset files in a separate folder outside your main web application and _don't put anything directly in the public web folder, as it will be overwritten during the build process!_...
+Read more about this [here](https://github.com/icflorescu/aspa).**
 
 ## License
 
