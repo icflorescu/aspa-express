@@ -7,7 +7,9 @@ Make sure to check [ASPA](https://github.com/icflorescu/aspa) for more informati
 
 ## Usage
 
-**Warning: Keep your asset files in a separate folder outside your main web application directory and _don't put anything directly in the public web folder, as it will be overwritten during the build process!_... Read more about it [here](https://github.com/icflorescu/aspa)**
+**Warning:  
+Keep your asset files in a separate folder outside your main web application directory and _don't put anything directly in the public web folder, as it will be overwritten during the build process!_...
+Read more about this [here](https://github.com/icflorescu/aspa).**
 
 I. Add dependency in `package.json`:
 
@@ -36,7 +38,7 @@ II. In `app.js`:
 	});
 	...
 
-III. Then, in your template files (a .jade file here) you can use `getAssetPath()` method (or whatever alias name you've choosen for it):
+III. Then, in your template files (a .jade in my example here) you can use `getAssetPath()` method (or whatever fancy alias name you've choosen for it) to refer the assets:
 
 	doctype 5
 	html
@@ -48,7 +50,6 @@ III. Then, in your template files (a .jade file here) you can use `getAssetPath(
 	    block content
 	    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
 	    script(src=asset('js/main.js'))
-
 
 ## License
 
