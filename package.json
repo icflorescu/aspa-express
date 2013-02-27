@@ -6,7 +6,8 @@
 	"keywords": [
 		"jade", "css", "stylesheets",
 		"coffee-script", "iced-coffee-script", "scripts",
-		"assets", "compressor", "optimizer", "packager", "builder"
+		"assets", "compressor", "optimizer", "packager", "builder",
+		"express", "connect"
 	],
 	"repository": "git://github.com/icflorescu/aspa-express",
 	"engines": {
