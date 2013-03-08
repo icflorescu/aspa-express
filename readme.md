@@ -1,7 +1,10 @@
 # ASPA-Express
 
-ASPA-Express is an Express/Connect module for using web assets packaged by [ASPA](https://github.com/icflorescu/aspa).  
-Make sure to check [ASPA](https://github.com/icflorescu/aspa) for more information on how to generate the asset packages.
+ASPA-Express is a simple Connect module for using web assets packaged by ASPA ( [github](https://github.com/icflorescu/aspa) | [npm](https://npmjs.org/package/aspa) ) with [Express](http://expressjs.com/).  
+
+Make sure to check [the docs here](https://github.com/icflorescu/aspa) for more information on how to generate the asset packages.
+
+![ASPA](https://raw.github.com/icflorescu/aspa/master/aspa.png)
 
 ## Usage
 
