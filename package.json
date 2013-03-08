@@ -1,7 +1,7 @@
 {
 	"name": "aspa-express",
-	"description": "Connect module to use asset packaged by aspa with Express.",
-	"version": "0.1.7",
+	"description": "Simple, lightweight, dependency-free Connect module for using web assets packaged by aspa.",
+	"version": "0.1.8",
 	"author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
 	"keywords": [
 		"jade", "css", "stylesheets",

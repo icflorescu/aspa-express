@@ -1,6 +1,7 @@
 # ASPA-Express
 
-ASPA-Express is a simple Connect module for using web assets packaged by ASPA ( [github](https://github.com/icflorescu/aspa) | [npm](https://npmjs.org/package/aspa) ) with [Express](http://expressjs.com/).  
+ASPA-Express is a simple, lightweight, **dependency-free** Connect module for using web assets packaged by ASPA ( [github](https://github.com/icflorescu/aspa) | [npm](https://npmjs.org/package/aspa) ) with [Express](http://expressjs.com/).  
+Because ASPA is a stand-alone command-line utility used during development / before deployment, you **don't need** to add   dependencies like Stylus, CoffeeScript, CSSO, Uglify-js (etc.) to your web application projects.
 
 Make sure to check [the docs here](https://github.com/icflorescu/aspa) for more information on how to generate the asset packages.
 
