@@ -7,7 +7,7 @@ Because ASPA is a stand-alone command-line utility used during development / bef
 Another benefit of using ASPA-Express is that, while you could certainly use [the default compress middleware](http://www.senchalabs.org/connect/compress.html) to serve compressed assets at runtime, it's usually better not to burden the application server with this task and have your assets compressed **before deployment**.  
 Virtually all current browsers know how to handle gzipped assets, provided they are served with the appropriate content headers.  
 
-The combination of ASPA + ASPA-Express enables you to do just that - optimize your client-side code deployment size, while maintaining a small-footprint server application size.  
+The combination of ASPA + ASPA-Express enables you to do just that - **optimize your client-side code deployment size, while maintaining a small-footprint server application size**.  
 
 Make sure to check [the docs here](https://github.com/icflorescu/aspa) for more information on how to generate the asset packages.
 
