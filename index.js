@@ -14,7 +14,7 @@ exports.getAssetPath = function(asset) {
     if (production) {
         asset = map[asset];
     }
-    return asset;
+    return '/' + asset;
 };
 
 /**
