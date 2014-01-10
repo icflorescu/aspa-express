@@ -2,6 +2,11 @@
 
 ASPA-Express is a simple, lightweight, **dependency-free** Connect module for using web assets packaged by ASPA ( [github](https://github.com/icflorescu/aspa) | [npm](https://npmjs.org/package/aspa) ) with [Express](http://expressjs.com/).
 
+## Notice
+If you like using aspa and aspa-express, please consider switching to [ASPAX](https://github.com/icflorescu/aspax) for cleaner YML syntax, a smart plugin system to handle various source file types, and automatic watching of included files (i.e. Stylus `@import`s). Have a look at [aspax.github.io](aspax.github.io) for more information.
+
+---
+
 Because ASPA is a stand-alone command-line utility used during development / before deployment, you **don't need** to add dependencies like Stylus, CoffeeScript, CSSO, Uglify-js (etc.) to your web application projects.
 
 Another benefit of using ASPA-Express is that, while you could certainly use [the default compress middleware](http://www.senchalabs.org/connect/compress.html) to serve compressed assets at runtime, it's usually better not to burden the application server with this task and have your assets compressed **before deployment**.
