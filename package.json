@@ -1,7 +1,7 @@
 {
 	"name": "aspa-express",
 	"description": "Simple, lightweight, dependency-free Connect module for using web assets packaged by aspa.",
-	"version": "0.4.3",
+	"version": "0.4.4",
 	"author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
 	"keywords": [
 		"jade", "less", "css", "stylesheets",
@@ -9,7 +9,10 @@
 		"assets", "compiler", "compressor", "optimizer", "packager", "builder",
 		"express", "connect", "middleware"
 	],
-	"repository": "git://github.com/icflorescu/aspa-express",
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/icflorescu/aspa-express.git"
+  },
 	"engines": {
 		"node": ">=0.8"
 	},

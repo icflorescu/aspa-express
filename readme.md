@@ -1,9 +1,12 @@
 # ASPA-Express
+[![NPM version](https://badge.fury.io/js/aspa-express.png)](http://badge.fury.io/js/aspa-express)
 
 ASPA-Express is a simple, lightweight, **dependency-free** Connect module for using web assets packaged by ASPA ( [github](https://github.com/icflorescu/aspa) | [npm](https://npmjs.org/package/aspa) ) with [Express](http://expressjs.com/).
 
-## Notice
-If you like using aspa and aspa-express, please consider switching to [ASPAX](https://github.com/icflorescu/aspax) for cleaner YML syntax, a smart plugin system to handle various source file types, and automatic watching of included files (i.e. Stylus `@import`s). Have a look at [aspax.github.io](aspax.github.io) for more information.
+## End of Life Notice - January 2014
+If you like using ASPA and ASPA-Express, please consider switching to [ASPAX](https://github.com/icflorescu/aspax) for cleaner YML syntax, a smart plugin system to handle various source file types, and automatic watching of included files (i.e. Stylus `@import`s). Have a look at [aspax.github.io](aspax.github.io) for more information.
+
+ASPA and ASPA-Express will remain in the npm repository, but they will no longer be maintained/updated.
 
 ---
 
